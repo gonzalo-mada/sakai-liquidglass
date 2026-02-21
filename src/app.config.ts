@@ -4,6 +4,7 @@ import { provideRouter, withEnabledBlockingInitialNavigation, withInMemoryScroll
 import Aura from '@primeuix/themes/aura';
 import { providePrimeNG } from 'primeng/config';
 import { appRoutes } from './app.routes';
+import { liquidGlassPreset } from 'src/theme/liquid-glass/preset'
 
 export const appConfig: ApplicationConfig = {
     providers: [

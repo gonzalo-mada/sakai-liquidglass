@@ -1,0 +1,23 @@
+/* src/theme/glass.scss */
+
+.glass {
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,.25),
+    rgba(255,255,255,.05)
+  );
+  border: 1px solid rgba(255,255,255,.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,.15);
+  border-radius: 1.25rem;
+}
+
+.app-dark .glass {
+  background: linear-gradient(
+    135deg,
+    rgba(0,0,0,.4),
+    rgba(0,0,0,.15)
+  );
+  border: 1px solid rgba(255,255,255,.1);
+}
