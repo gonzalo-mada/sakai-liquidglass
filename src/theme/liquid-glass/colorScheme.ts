@@ -26,6 +26,9 @@ export const colorScheme = {
         },
         content: {
             background: '{mada.lightt.transparency.primary.500}',
+            border: {
+                radius: '{mada.rounded.md}'
+            }
         },
         text: {
             color: '{primary.600}',
@@ -35,6 +38,33 @@ export const colorScheme = {
         },
         border: {
             radius: borderRadiusScale()
+        },
+        navigation: {
+            item: {
+                focus: {
+                    background: '{mada.darkk.transparency.primary.100}'
+                }
+            }
+        },
+        overlay: {
+            select: {
+                background: '{mada.lightt.transparency.primary.900}',
+                shadow: '{mada.lightt.shadow}'
+            }
+        },
+        list: {
+            option: {
+                group: {
+                    background: '{mada.lightt.transparency.primary.900}',
+                    shadow: '{mada.lightt.shadow}'
+
+                }
+            }
+        },
+        focus: {
+            ring: {
+                shadow: '{mada.lightt.shadow}'
+            }
         },
     },
     dark: {
@@ -62,6 +92,9 @@ export const colorScheme = {
         },
         content: {
             background: '{mada.darkk.transparency.primary.500}',
+            border: {
+                radius: '{mada.rounded.md}'
+            }
         },
         text: {
             color: '{primary.400}',
@@ -72,5 +105,27 @@ export const colorScheme = {
         border: {
             radius: borderRadiusScale()
         },
+        overlay: {
+            select: {
+                background: '{mada.darkk.transparency.primary.900}',
+                shadow: '{mada.darkk.shadow}'
+            }
+        },
+        list: {
+            option: {
+                group: {
+                    background: '{mada.darkk.transparency.primary.900}',
+                    shadow: '{mada.darkk.shadow}'
+
+                }
+            }
+        },
+        navigation: {
+            item: {
+                focus: {
+                    background: '{mada.lightt.transparency.primary.100}'
+                }
+            }
+        }
     }
 }

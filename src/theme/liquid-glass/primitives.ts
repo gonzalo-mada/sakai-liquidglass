@@ -7,7 +7,7 @@ export const primitives = {
         rounded: borderRadiusScale(),
         lightt: {
             transparency: {
-                primary: transparencyScale('255,255,255'),
+                primary: transparencyScale('255,255,255')
             },
             disabled: transparencyScale('0,0,0'),
             invalid: 'rgba(146, 3, 3, 0.553)',
@@ -15,7 +15,8 @@ export const primitives = {
         },
         darkk: {
             transparency: {
-                primary: transparencyScale('0,0,0')
+                primary: transparencyScale('0,0,0'),
+
             },
             disabled: transparencyScale('255,255,255'),
             invalid: 'rgba(255, 77, 77, 0.553)',

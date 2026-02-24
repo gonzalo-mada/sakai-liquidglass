@@ -29,5 +29,5 @@ export function borderRadiusScale(){
 export function glassShadow(light = true) {
     return light
         ? 'inset 0 2px 0px rgba(255, 255, 255, 0.934),0 0 9px rgba(0, 0, 0, 0.2),0 3px 8px rgba(0, 0, 0, 0.15)'
-        : 'inset 0 2px 0px rgba(255, 255, 255, 0.379),0 0 9px rgba(255, 255, 255, 0.05),0 3px 8px rgba(255, 255, 255, 0.05)';
+        : 'inset 0 2px 0px rgba(255, 255, 255, 0.379),0 0 9px rgba(255, 255, 255, 0.1),0 3px 8px rgba(255, 255, 255, 0.1)';
 }

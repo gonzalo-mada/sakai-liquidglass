@@ -4,24 +4,19 @@ import { transparencyScale, glassShadow, borderRadiusScale } from './helper';
 
 const componentsTest = definePreset(Aura , {
     components: {
-        button:{
-            colorScheme: {
-                light: {
-
-                    root: {
-                        primary: {
-                            
-                        },
-                        raisedShadow: glassShadow(true)
-                    }
-                },
-                dark: {
-                    root: {
-                        raisedShadow: glassShadow(false)
-                    }
-                },
+        button: {
+            extend: {
+                accent: {
+                    color: '#f59e0b',
+                    inverseColor: '#ffffff'
+                }
             },
-
+            css: ({ dt }) => `
+                .p-button-accent {
+                    background: ${dt('button.accent.color')};
+                    color: ${dt('button.accent.inverse.color')};
+                }
+            `
         },
         card: {
             colorScheme: {
@@ -37,10 +32,6 @@ const componentsTest = definePreset(Aura , {
                 },
             }
         },
-        datatable: {
-
-        }
     }
 });
 
-export const components = componentsTest.components;

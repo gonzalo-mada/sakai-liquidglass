@@ -29,6 +29,7 @@ import { SplitButtonModule } from 'primeng/splitbutton';
                     <p-button label="Help" severity="help" />
                     <p-button label="Danger" severity="danger" />
                     <p-button label="Contrast" severity="contrast" />
+                    <p-button label="Accent" class="accent"/>
                 </div>
             </div>
             <div class="card flex flex-col gap-4">

@@ -33,5 +33,6 @@ export const semantic = {
     content: {
         borderRadius: '{mada.rounded.xl}'
     },
+
     colorScheme: { ...colorScheme }
 };

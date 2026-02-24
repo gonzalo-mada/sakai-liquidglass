@@ -223,7 +223,7 @@ import { Country } from '@/app/pages/service/customer.service';
                 </div>
                 <div class="flex flex-col md:flex-row gap-6">
                     <p-inputgroup>
-                        <p-button label="Search" />
+                        <p-button label="Search" [text]="true" />
                         <input pInputText placeholder="Keyword" />
                     </p-inputgroup>
                     <p-inputgroup>
